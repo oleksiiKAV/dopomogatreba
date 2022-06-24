@@ -26,6 +26,7 @@ class Advert(models.Model):
     def save(self, *args, **kwargs):
         super().save(*args, **kwargs)
         
+        
     class Meta:
         verbose_name = "Название"
         verbose_name_plural = "Названия"
